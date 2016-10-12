@@ -79,7 +79,7 @@ public class CSVData {
 	 * @param columnIndex
 	 * @param newValue
 	 */
-	public void setNewValues (int rowIndex, int columnIndex, double newValue) {
+	public void setNewValue (int rowIndex, int columnIndex, double newValue) {
 		
 	}
 	 /***
@@ -87,7 +87,7 @@ public class CSVData {
 	  * @param rowIndex
 	  * @param newValue
 	  */
-	public void setNewValues (int rowIndex, double newValue){
+	public void setNewRowValues(int rowIndex, double[] newValues){
 		
 	}
 	
@@ -96,7 +96,7 @@ public class CSVData {
 	 * @param columnName
 	 * @param newValue
 	 */
-	public void setNewValues (String columnName, double newValue){
+	public void setNewColumnValues (String columnName, double[] newValues){
 
 	}
 	
@@ -105,7 +105,7 @@ public class CSVData {
 	 * @param ColumnNames
 	 * @return the names of the columns
 	 */ 
-	public String [] getColumnNames (String[] ColumnNames){
+	public String[] getColumnNames (){
 		return null;
 	}
 	
