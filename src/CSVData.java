@@ -82,19 +82,37 @@ public class CSVData {
 	public void setNewValues (int rowIndex, int columnIndex, double newValue) {
 		
 	}
-	
+	 /***
+	  * Sets new values within a specific Row
+	  * @param rowIndex
+	  * @param newValue
+	  */
 	public void setNewValues (int rowIndex, double newValue){
 		
 	}
 	
+	/***
+	 * Sets new values within a specific column
+	 * @param columnName
+	 * @param newValue
+	 */
 	public void setNewValues (String columnName, double newValue){
 
 	}
 	
-	public double [] getColumnNames (String[] ColumnNames){
+	/***
+	 * gets the names of the Columns
+	 * @param ColumnNames
+	 * @return the names of the columns
+	 */ 
+	public String [] getColumnNames (String[] ColumnNames){
 		return null;
 	}
 	
+	/***
+	 * Saves the current state of the object back into a CSV file
+	 * @param FileName
+	 */
 	public void saveToFile (String FileName){
 		
 	}
